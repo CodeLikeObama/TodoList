@@ -1,0 +1,46 @@
+html{
+    background-color: #24283b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    max-width: 400px;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+
+.new-items-form{
+   display: flex;
+   padding-top: 40px;
+   justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    /* justify-content: center; */
+    list-style: none;
+}
+
+.list li{
+    margin-bottom: 15px;
+}
+
+.inputField {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.deleteBtn {
+    margin-left: 10px;
+}
+
+.checkBox {
+    margin-right: 5px;
+}

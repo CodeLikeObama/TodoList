@@ -1,7 +1,7 @@
 export function TodoItem({ id, title, completed, checkItem, deleteTodo }) {
     return (
         <li>
-            <label className="listItem">
+            <label>
                 <input 
                 type="checkbox" 
                 checked={completed} 

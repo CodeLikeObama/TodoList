@@ -35,15 +35,18 @@ body {
 .list {
     display: flex;
     flex-direction: column;
-    margin-left: 15%;
+    margin-left: 22px;
+    margin-right: 20px;
     /* justify-content: center; */
     list-style: none;
-    background-color: #bb9af7;
+    background-color: #1a1b26;
+    border-radius: 15px;
 }
 
 .list li{
-    margin-bottom: 15px;
-    color: #bb9af7;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #7aa2f7;
 }
 
 .inputField {

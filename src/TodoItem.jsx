@@ -7,8 +7,7 @@ export function TodoItem({ id, title, completed, checkItem, deleteTodo }) {
                 checked={completed} 
                 onChange={e => checkItem(id, e.target.checked)}
                 className="checkBox"
-                >
-                </input>
+                />
                 {title}
             </label>
             <button className="deleteBtn" 

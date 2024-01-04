@@ -15,9 +15,21 @@ body {
    justify-content: center;
 }
 
+.new-items-form label {
+    color: #ff9e64;
+    background-color: white;
+    padding-left: 8px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-right: 2px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
 .header {
     display: flex;
     justify-content: center;
+    color: #f7768e;
 }
 
 .list {
@@ -26,15 +38,35 @@ body {
     margin-left: 15%;
     /* justify-content: center; */
     list-style: none;
+    background-color: #bb9af7;
 }
 
 .list li{
     margin-bottom: 15px;
+    color: #bb9af7;
 }
 
 .inputField {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 200px;
+    height: 30px;
+    /* border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px; */
+    border: none
+    /* border-left: 1px solid;
+    border-color: #ff9e64; */
+}
+
+.addBtn {
+    position: relative;
+    background-color: #ff9e64;
+    border: none;
+    padding-left: 9px;
+    padding-right: 10px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+
 }
 
 .deleteBtn {

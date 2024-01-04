@@ -25,7 +25,7 @@ export function AddItems({ onSubmit }) {
                     id="item">
                 </input>
             </div>
-            <button className="AddBTN">Add</button>
+                <button className="addBtn">Add</button>
         </form>
     )
 }

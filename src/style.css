@@ -78,4 +78,13 @@ body {
 
 .checkBox {
     margin-right: 5px;
+    width: 12px;
+    height: 12px;
+    background-color: #f7768e
+
 }
+input[type=checkbox] { 
+    visibility: hidden; 
+}
+
+

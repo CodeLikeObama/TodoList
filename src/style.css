@@ -19,7 +19,7 @@ body {
     color: #ff9e64;
     background-color: white;
     padding-left: 8px;
-    padding-top: 7px;
+    padding-top: 6px;
     padding-bottom: 8px;
     padding-right: 2px;
     border-top-left-radius: 12px;
@@ -70,6 +70,10 @@ body {
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
 
+}
+
+.addBtn:hover{
+    box-shadow: 0 0 15px #ff9e64;
 }
 
 .deleteBtn {

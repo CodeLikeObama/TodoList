@@ -18,10 +18,7 @@ body {
 .new-items-form label {
     color: #ff9e64;
     background-color: white;
-    padding-left: 8px;
-    padding-top: 7px;
-    padding-bottom: 8px;
-    padding-right: 2px;
+    padding: 8px 2px 7px 8px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
 }
@@ -37,7 +34,6 @@ body {
     flex-direction: column;
     margin-left: 22px;
     margin-right: 20px;
-    /* justify-content: center; */
     list-style: none;
     background-color: #1a1b26;
     border-radius: 15px;
@@ -54,11 +50,8 @@ body {
     margin-right: 0px;
     width: 200px;
     height: 30px;
-    /* border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px; */
-    border: none
-    /* border-left: 1px solid;
-    border-color: #ff9e64; */
+    border: none;
+    font-size: 16px;
 }
 
 .addBtn {
@@ -78,17 +71,46 @@ body {
 
 .deleteBtn {
     margin-left: 10px;
+    background-color: #ff9e64;
+    color: white;
+    border: none;
+    padding: 4px 6px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.checkBox {
-    margin-right: 5px;
+.deleteBtn:hover {
+    background-color: #f7768e;
+    box-shadow: 0 0 15px #f7768e;
+}
+
+input[type=checkbox] {
     width: 12px;
     height: 12px;
-    background-color: #f7768e
-
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #f7768e;
+    border: 1px solid #ff9e64;
+    border-radius: 3px;
+    position: relative;
+    left: -13px;
+    top: 1px;
 }
-input[type=checkbox] { 
-    visibility: hidden; 
+
+input[type=checkbox]:checked {
+    background-color: #ff9e64;
+}
+
+input[type=checkbox]:checked::before {
+    content: "✔";
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: -2px;
+    left: 2px;
 }
 
 
